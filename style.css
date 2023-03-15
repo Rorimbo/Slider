@@ -55,6 +55,9 @@ body::before {
 }
 
 .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   background-color: transparent;
   color: #fff;
@@ -71,9 +74,9 @@ body::before {
 }
 
 .left-arrow {
-  left: calc(15vw - 65px);
+  left: calc(15vw - 75px);
 }
 
 .right-arrow {
-  right: calc(15vw - 65px);
+  right: calc(15vw - 75px);
 }
